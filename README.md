@@ -220,10 +220,16 @@ It is clear that the lightweight nature of coroutines allow them to scale much b
 hit as the tasks hit the limit on number of concurrent threads. But this performance hit is, in my opinion, a trade-off 
 I am willing to take to be able to reduce the memory footprint of the application I work on. At the end of the day, 
 different tools will work for different tasks, so it will be up to you to decide which tool fits your needs.
+I know for me, I will continue to recommend Coroutines as my preferred solution for asynchronous tasks.
 
 ### Final words
 
 This work was inspired on the need to understand the trade-off between RxJava and Coroutines. I am way more familiar with 
 Coroutines than with RxJava, but I tried to do a good job at finding a good implementation that was roughly equivalent
-between the two libraries. If you feel that there is a mistake on my methodology, or I there is a mistake, please let me 
+between the two libraries. 
+
+I also know that there is RxJava3, but the code I was working on was based on RxJava2, hence the comparison here. Adding 
+an RxJava3 implementation should not be too complicated.
+
+If you feel that there is a mistake on my methodology, or I there is a mistake, please let me 
 know so it can be addressed. You can contact@cramsan.com or at twitter at @cramsan_dev.
