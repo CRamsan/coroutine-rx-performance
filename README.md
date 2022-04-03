@@ -1,5 +1,7 @@
 # Coroutine RxJava2 Performance Comparison
 
+#### > Posted in my [blog](https://cramsan.com/2022/04/02/coroutines-rxjava2-perf.html) as well.
+
 For some projects I have been working with, I have been wanting to migrate them from RxJava2 to Coroutines. I personally 
 like coroutines, and I would lie if I said that I was not a little bias. But I wanted to understand how RxJava and 
 Coroutines performed and get some real numbers that would hopefully show the benefits of coroutines.
